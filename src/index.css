@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul,ol{
+    list-style: none;
+}
+body{
+    background-color: #86469C;
+}
+
+
+.bd{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+    
+}
+.card{
+    width: 600px;
+    background-color: #141E46;
+    border-radius: 8px;
+    height: 100%;
+    max-width: 800px;
+    padding: 16px;
+    margin-bottom: 200px;
+    color: lightgray;
+    box-shadow: 15px 10px 35px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 15px 10px 35px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 10px 35px 0px rgba(0,0,0,0.75);
+
+}
+.title{ 
+    text-align: center;
+    margin-bottom: 10px;
+}
+.input{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px #9CAFAA solid;
+    width: 500px;
+    background-color: inherit;
+    color: lightgray;
+}
+.input:active{
+    border: none;
+}
+.btn{
+    padding: 10px;
+    color: lightgray;
+    border: none;
+    margin-left: 5px;
+    background-color: inherit;
+}
+.btn:active{
+    opacity: 70%;
+}
+.btn:hover{
+    color: green;
+    transition: 300ms;
+    text-shadow: -2px 2px 13px rgba(0,177,22,1);
+}
+.del-btn:active{
+    opacity: 70%;
+}
+.del-btn:hover{
+    color: red;
+    transition: 300ms;
+    text-shadow: -2px 2px 13px rgba(255,0,0,1);
+}
+.item{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 5px solid #6AD4DD;
+    background-color: #102C57;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.compleateItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 5px solid #6AD4DD;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #41B06E;
+}
+.text{
+margin-right: 5px;
+}
+.del-btn{
+    margin-left: 5px;
+    background-color: inherit;
+    border: none;
+    margin-left: 10px;
+    color: lightgray;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 60%;
+}
+.list{
+    margin-top: 15px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #874CCC;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    cursor: pointer;
+}
