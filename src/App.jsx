@@ -43,8 +43,8 @@ function App() {
     <div className='bd'>
       <div className='card'>
         <div className='top'>
-          <img src="../public/back-svgrepo-com.svg " className='img' alt="" width={30} height={30} />
-          <img src="../public/menu-svgrepo-com.svg" className='img' alt=""  width={30} height={30}/>
+          <img src="../public/back-svgrepo-com.svg " className='img' alt="back icon" width={30} height={30} />
+          <img src="../public/menu-svgrepo-com.svg" className='img' alt="menu icon"  width={30} height={30}/>
         </div>
         <h1 className='title'>Todos</h1>
         <div className='line'></div>
