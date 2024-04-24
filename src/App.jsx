@@ -62,7 +62,7 @@ function App() {
                   <div className='bottom'>
                     <label htmlFor="">
                       <span className='text'>completed:</span>
-                      <input    type="checkbox"  />
+                      <input type="checkbox" />
                     </label>
                     <button className='del-btn' onClick={() => dispatch(removeTodo(todo.id))}>Delete</button>
                   </div>
